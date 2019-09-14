@@ -1,0 +1,55 @@
+.post {
+  padding: 2rem;
+  margin-bottom: 2rem;
+  width: 100%;
+  display: flex;
+  border-radius: 15px;
+  box-shadow: 1px 1px 1px 1px rgb(179, 179, 179);
+  max-width: 80rem;
+  background: white;
+  flex-direction: column;
+  margin: auto;
+  margin-bottom: 2.5rem;
+}
+
+.content {
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid rgba(182, 182, 182, 0.3);
+  padding-bottom: 2.5rem;
+}
+
+.author {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.author div p {
+  font-size: 1.5rem;
+  color: rgb(13, 13, 13);
+  margin-bottom: 0.3rem;
+}
+
+.author div {
+  color: gray;
+  font-size: 1rem;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 5rem;
+  margin-right: 1rem;
+}
+
+.comment {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.comment p {
+  background: rgb(240, 240, 240);
+  border-radius: 5px;
+  width: 100%;
+  padding: 1.8rem;
+}
